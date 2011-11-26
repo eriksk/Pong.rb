@@ -1,58 +1,8 @@
 require 'rubygems'
 require 'gosu'
-
-class Entity
-	attr_accessor :x, :y, :image
-	
-	def initialize x, y, image
-		@x, @y, @image = x, y ,image
-	end
-	
-	def draw
-		image.draw(x,y, 1)
-	end
-end
-
-class Ball < Entity
-	attr_accessor :velX, :velY, :dead
-	
-	def initialize x, y, image
-		super x, y, image
-		@velX = rand(1) == 0 ? -4 : 4
-		@velY = rand(1) == 0 ? -4 : 4
-	end
-	
-	def update
-		@x += @velX
-		@y += @velY
-		if @x < 0
-			@x = 0
-			@velX *= -1
-		end
-		if @x > 800 - 16
-			@x = 800 - 16
-			@velX *= -1
-		end		
-		if @y < 0
-			@dead = true
-		end
-		if @y > 600 - 16
-			@dead = true
-		end
-	end
-end
-
-class Pad < Entity
-	attr_accessor :score
-	
-	def initialize x, y, image
-		super x, y, image
-		@score = 0
-	end
-	
-	def update
-	end
-end
+require 'entity.rb'
+require 'pad.rb'
+require 'ball.rb'
 
 class GameWindow < Gosu::Window	
 	def initialize

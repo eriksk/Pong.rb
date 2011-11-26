@@ -1,6 +1,21 @@
+---------------------------------------------
+ ____    ___   _   _   ____     ____   ____  
+|  _ \  / _ \ | \ | | / ___|   |  _ \ | __ ) 
+| |_) || | | ||  \| || |  _    | |_) ||  _ \ 
+|  __/ | |_| || |\  || |_| | _ |  _ < | |_) |
+|_|     \___/ |_| \_| \____|(_)|_| \_\|____/ 
+                                             
+---------------------------------------------
+
+PONG IN RUBY!
+
+
+---------------------------------------------
 USE THIS CODE AT YOUR OWN RISK.
-I TAKE NO RESPONSABILITY AT ALL FOR ANYTHING AT ALL.
-IF YOU HAVE A PROBLEM WITH THIS THEN DON'T USE THIS SOFTWARE.
+I TAKE NO RESPONSABILITY AT ALL FOR ANYTHING 
+AT ALL.
+IF YOU HAVE A PROBLEM WITH THIS THEN DON'T 
+USE THIS SOFTWARE.
 
 ALSO A NARWHAL!
 
